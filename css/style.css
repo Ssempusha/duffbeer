@@ -1334,6 +1334,15 @@ body {
     display: block;
   }
 
+  .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .slick-list {
+    margin: 0 -10px;
+  }
+
   .slick-slider.figures__list-mob:nth-of-type(2) .slick-dots {
     top: -129px;
     left: 34px;
