@@ -1204,14 +1204,14 @@ body {
 
   .about-us__video-block {
     max-width: 100%;
-    height: 184px;
+    height: 294px;
     margin-left: -14px;
   }
 
   .about-us__video {
     max-width: 100%;
     width: 100%;
-    height: 174px;
+    height: 284px;
     margin-left: 14px;
     margin-top: 20px;
   }
@@ -1302,6 +1302,14 @@ body {
 }
 
 @media (max-width: 564px) {
+  .about-us__video-block {
+    height: 254px;
+  }
+
+  .about-us__video {
+    height: 244px;
+  }
+
   .advantages__list-item-text-block {
     max-width: 100%;
   }
@@ -1360,5 +1368,15 @@ body {
 
   .slick-slider.figures__list-mob:nth-of-type(2) .slider-next {
     top: 41.7%;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-us__video-block {
+    height: 184px;
+  }
+
+  .about-us__video {
+    height: 174px;
   }
 }
