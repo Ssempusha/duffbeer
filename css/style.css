@@ -325,7 +325,7 @@ body {
   width: 356px;
   height: 178px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -393,8 +393,8 @@ body {
 }
 
 .advantages__list-item.active .advantages__list-item-text {
-  max-height: 188px;
-  height: 188px;
+  max-height: 196px;
+  height: 196px;
   opacity: 1;
 }
 
@@ -651,7 +651,6 @@ body {
 
   .promo__container {
     width: 930px;
-    background-size: 122% 103%;
     padding: 0 40px 180px 40px;
   }
 
@@ -744,7 +743,6 @@ body {
   .advantages__list-item-img-block {
     width: 260px;
     height: 178px;
-    background-size: 100% 100%;
   }
 
   .advantages__list-item-text-block {
@@ -814,7 +812,6 @@ body {
 @media (max-width: 1019px) {
   .promo__container {
     width: 610px;
-    background-size: 100% 105%;
     padding-bottom: 94px;
   }
 
@@ -1053,10 +1050,6 @@ body {
     line-height: 22px;
   }
 
-  .advantages__list-item-img-block {
-    background-size: 130% 100%;
-  }
-
   .advantages__list-item-text-block {
     max-height: 106px;
     max-width: 260px;
@@ -1093,7 +1086,7 @@ body {
 
   .figures__list-mob .figures__list-item-employees {
     background-image: url("../images/employees.jpg");
-    background-position: center;
+    background-position: 32% 10%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1171,7 +1164,6 @@ body {
   .promo__container {
     min-width: 300px;
     width: 100%;
-    background-size: cover;
     padding: 0 33px 148px 34px;
   }
 
@@ -1288,11 +1280,6 @@ body {
 
   .figures__text {
     margin-bottom: 8px;
-  }
-
-  .figures__list-mob .figures__list-item-employees {
-    background-position: 32% 10%;
-    background-size: 138% 100%;
   }
 
   .figures__decor-img:nth-of-type(1) {

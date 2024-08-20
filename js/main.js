@@ -109,7 +109,7 @@ $(document).ready(function () {
   }
 
   function handleSlick(selector, settings) {
-    var windowWidth = $(window).width();
+    const windowWidth = $(window).width();
     if (windowWidth <= 1019) {
       initializeSlick(selector, settings);
     } else {
@@ -117,7 +117,7 @@ $(document).ready(function () {
     }
   }
 
-  var commonSettings = {
+  const commonSettings = {
     dots: true,
     infinite: true,
     speed: 300,
